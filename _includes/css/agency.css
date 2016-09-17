@@ -65,6 +65,10 @@ h6 {
     background-color: #f7f7f7;
 }
 
+.bg-light-slate {
+    background-color: #94aeba;
+}
+
 .bg-darkest-gray {
     background-color: #222;
 }
@@ -176,8 +180,8 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-brand {
-    font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
-    color: #{{ site.data.template.color.primary }};
+    font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,cursive;
+    color: #{{ site.data.template.color.logo }};
 }
 
 .navbar-default .navbar-brand:hover,
@@ -266,13 +270,20 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url('{{ site.baseurl }}/img/header-bg.jpg');
+    background-image: url('{{ site.baseurl }}/img/bg-header-coding-v2.jpg');
+    background-color: #222;
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+
+    /*.overlay {
+      width: 100%;
+      position: relative;
+      background-color: rgba(0,0,0,0.7) url('img/pattern.png') repeat fixed center
+    }*/
 }
 
 header .intro-text {
@@ -318,6 +329,17 @@ header .intro-text .intro-heading {
         font-size: 75px;
         font-weight: 700;
         line-height: 75px;
+    }
+
+    header .overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right:0;
+      bottom:0;
+      display: none;
+      background-color: rgba(0,0,0,0.5);
+      display: block;
     }
 }
 

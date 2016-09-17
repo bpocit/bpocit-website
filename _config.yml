@@ -1,25 +1,25 @@
 url: https://bpocit.github.io
-baseurl: /website/
+baseurl: /website
 
 # Site settings
 title: BPoCiT Study Group
-email: your-email@domain.com
+email: bpocit@splendits.de
 description: "A Black and People of Color Study Group for Web Development"
 
 
 # Team names, titles and social links
 people:
-- name: BPoCiT
+- name: BPoCiT Study Group
   pic: 1
   position: Study Group
   social:
-    - title: twitter
-      url: #
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: github
-    url: http://github.com/bpocit
+    url: https://github.com/bpocit
+  - title: twitter
+    url: #
 
 # Postal address (add as many lines as necessary)
 # address:
