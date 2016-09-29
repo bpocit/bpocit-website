@@ -1,21 +1,28 @@
 <!-- Events Section -->
-    <section id="events" class="bg-light-slate">
+<script>
+  $(document).ready(function() {
+
+      $('#calendar').fullCalendar({
+          dayClick: function() {
+              alert('a day has been clicked!');
+          }
+      });
+
+  });
+</script>
+    <section id="events" class="bg-lightblue">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">Events Calendar</h2>
-                    <h3 class="section-subheading">As our hosting spaces are limited per session</strong>, we kindly ask you to RSVP for our free events. </h3>
+                    <h3 class="section-subheading">We meet every <strong>second</strong> and <strong>fourth thursday</strong> of a month from <strong>7:30pm - 10pm</strong> at the co-working space <strong><a href="https://co-up.de">co.up</a></strong> (5th floor) for which the seats are limited to <strong>max. 12 people</strong> per session. If you are interested to join or have any ideas for improvements, we are happy to receive your<a href="#contact">message</a>.</h3>
                 </div>
             </div>
             <div class="row">
                 <div class="col-lg-12 text-center">
-                  <h4>#2 Let's tutorial together html/css for beginners! <br/>2016, Sept 21, 7:30 pm - 10:00 pm<br/>// Altes Finanzamt</a>, Schönstedtstr. 7, 12043 Berlin //</h4>
-                  <tito-widget event="bpocit-study-group-events/session-2-let-s-tutorial-together-html-css"></tito-widget>
-                  <h4>#3 Let's tutorial together html/css for beginners! <br/>2016, Oct 5, 7:30 pm - 10:00 pm @TBA (Berlin)</h4>
-                  <tito-widget event="bpocit-study-group-events/session-3-let-s-tutorial-together-html-css"></tito-widget>
-                  <h4>#4 Let's tutorial together html/css for beginners! <br/>2016, Oct 19, 7:30 pm - 10:00 pm @TBA (Berlin)</h4>
-                  <tito-widget event="bpocit-study-group-events/session-4-let-s-tutorial-together-html-css"></tito-widget>
-                </div>
+                  <div class="container">
+                    <div id='calendar'></div>
+                  </div>
               </div>
         </div>
     </section>
