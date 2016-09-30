@@ -21,3 +21,15 @@
 
     <!-- Custom Calendar JavaScript -->
     <script src="{{ "/js/calendar.js" | prepend: site.baseurl }}"></script>
+
+    <script>
+      $(document).ready(function() {
+
+          $('#calendar').fullCalendar({
+              // dayClick: function() {
+              //     alert('a day has been clicked!');
+              // }
+          });
+
+      });
+    </script>
