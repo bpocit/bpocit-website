@@ -6,7 +6,7 @@
 
 body {
     overflow-x: hidden;
-    font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Open Sans","Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
     color: #{{ site.data.template.color.secondary-dark }};
 }
 
@@ -74,7 +74,7 @@ h6 {
 }
 
 .bg-lightblue {
-  background-color: #beced5;
+  background-color: #c3dde6;
 }
 
 .btn-primary {
@@ -297,9 +297,8 @@ header .intro-text {
 
 header .intro-text .intro-lead-in {
     margin-bottom: 25px;
-    font-family: {{ site.data.template.font.secondary }};
-    font-size: 22px;
-    font-style: italic;
+    font-family: {{ site.data.template.font.third }};
+    font-size: 60px;
     line-height: 22px;
 }
 
@@ -320,9 +319,8 @@ header .intro-text .intro-heading {
 
     header .intro-text .intro-lead-in {
         margin-bottom: 25px;
-        font-family: {{ site.data.template.font.secondary }};
-        font-size: 40px;
-        font-style: italic;
+        font-family: {{ site.data.template.font.third }};
+        font-size: 60px;
         line-height: 40px;
     }
 
@@ -360,9 +358,9 @@ section h2.section-heading {
 section h3.section-subheading {
     margin-bottom: 75px;
     text-transform: none;
-    font-family: {{ site.data.template.font.secondary }};
-    font-size: 16px;
-    font-style: italic;
+    font-family: {{ site.data.template.font.third }};
+    font-size: 24px;
+    line-height: 30px;
     font-weight: 400;
 }
 
