@@ -3,10 +3,11 @@ color:
   primary: 7a5230 # a57852 # fed136
   secondary: 876344 # 800080 # 94aeba #fec503
   secondary-dark: 333
-  muted: 777
+  muted: 5e5e5e
   logo: fff
 
 # Font Families
 font:
   primary: 'Montserrat, "Helvetica Neue",Helvetica,Arial,sans-serif'
-  secondary: '"Droid Serif", "Helvetica Neue", Helvetica,Arial,sans-serif'
+  secondary: '"Lato", "Droid Serif", "Helvetica Neue", Helvetica,Arial,sans-serif'
+  third: '"Caveat", "Helvetica Neue", Helvetica,Arial,sans-serif'
