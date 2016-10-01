@@ -18,6 +18,9 @@
 h3.grid-text {
   color: #fff;
   text-align: center;
+  margin: 35% auto;
+  font-size: 22px;
+  font-weight: 400px;
 }
 
 .grid-darkmagenta {
