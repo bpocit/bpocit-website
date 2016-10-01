@@ -27,6 +27,10 @@ p.large {
     font-size: 16px;
 }
 
+ul li {
+  line-height: 1.75;
+}
+
 a,
 a:hover,
 a:focus,
@@ -298,8 +302,8 @@ header .intro-text {
 header .intro-text .intro-lead-in {
     margin-bottom: 25px;
     font-family: {{ site.data.template.font.third }};
-    font-size: 60px;
-    line-height: 22px;
+    font-size: 40px;
+    line-height: 40px;
 }
 
 header .intro-text .intro-heading {
@@ -321,7 +325,7 @@ header .intro-text .intro-heading {
         margin-bottom: 25px;
         font-family: {{ site.data.template.font.third }};
         font-size: 60px;
-        line-height: 40px;
+        line-height: 60px;
     }
 
     header .intro-text .intro-heading {
@@ -360,7 +364,7 @@ section h3.section-subheading {
     text-transform: none;
     font-family: {{ site.data.template.font.third }};
     font-size: 24px;
-    line-height: 30px;
+    line-height: 28px;
     font-weight: 400;
 }
 
