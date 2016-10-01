@@ -21,6 +21,7 @@ h3.grid-text {
 h3.grid-text a {
   color: #fff;
   text-decoration: none;
+  margin: 35% auto;
 }
 
 .grid-darkmagenta {
