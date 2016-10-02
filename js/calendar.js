@@ -4,7 +4,6 @@ $.getScript("./js/fullcalendar/dist/fullcalendar.min.js",function(){
   var d = date.getDate();
   var m = date.getMonth();
   var y = date.getFullYear();
-  var co_up = "co.up, Adalbertstr. 8, 10999 Berlin";
 
   $(document).ready(function() {
 
@@ -22,12 +21,24 @@ $.getScript("./js/fullcalendar/dist/fullcalendar.min.js",function(){
       events: [
         {
           id: 999,
+          title: "#1 Workshop: Intro into HTML/CSS @asquera GmbH, Ohlauer Str. 43, 10999 Berlin - http://www.asquera.de",
+          start: new Date(2016, 8, 7, 19, 00, 00),
+          end: new Date(2016, 8, 7, 22, 00, 00),
+          allDay: false
+        },
+        {
+          id: 999,
+          title: "#2 Let's tutorial HTML/CSS for Beginners! @Altes Finanzamt, Schönstedtstr. 7, 12043 Berlin - http://altesfinanzamt.blogspot.de",
+          start: new Date(2016, 8, 22, 19, 30, 00),
+          end: new Date(2016, 8, 22, 22, 00, 00),
+          allDay: false
+        },
+        {
+          id: 999,
           title: "#3 Let's tutorial HTML/CSS for Beginners! @co.up, Adalbertstr. 8, 10999 Berlin (5th floor) - http://co-up.de",
           start: new Date(2016, 9, 13, 19, 30, 00),
           end: new Date(2016, 9, 13, 22, 00, 00),
-          allDay: false,
-          location: co_up,
-          eventButton: true
+          allDay: false
         },
         {
           id: 999,
