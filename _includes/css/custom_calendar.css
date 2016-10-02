@@ -1,0 +1,12 @@
+#calendar {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+#calendar.top {
+  margin-top: 40px;
+}
+
+#calendar .fc-toolbar.fc-view-container.table {
+  color: #333;
+}
