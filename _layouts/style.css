@@ -1,8 +1,5 @@
 {% include css/bootstrap.min.css %}
 {% include css/agency.css %}
 {% include css/custom.css %}
-{% include css/fullcalendar.css %}
-{% include css/fullcalendar.min.css %}
-{% include css/fullcalendar.print.css %}
 {% include css/custom_calendar.css %}
 {{ content }}

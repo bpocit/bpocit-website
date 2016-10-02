@@ -5,17 +5,16 @@ $.getScript("./js/fullcalendar/dist/fullcalendar.min.js",function(){
   var m = date.getMonth();
   var y = date.getFullYear();
   var co_up = "co.up, Adalbertstr. 8, 10999 Berlin";
-  var location = co_up;
 
   $(document).ready(function() {
 
     $('#calendar').fullCalendar({
       header: {
-        left: 'prev,next today',
+        left: 'prevYear, prev,next, nextYear, today',
         center: 'title',
-        right: 'listDay,listWeek,month'
+        right: 'month,listYear,listMonth,listDay'
       },
-      defaultView: 'listWeek',
+      defaultView: 'month',
       defaultDate: '2016-10-01',
       navLinks: true, // can click day/week names to navigate views
       weekNumberCalculation: 'ISO',
@@ -23,11 +22,12 @@ $.getScript("./js/fullcalendar/dist/fullcalendar.min.js",function(){
       events: [
         {
           id: 999,
-          title: "#3 Let's tutorial HTML/CSS for Beginners! @ co.up, Adalbertstr. 8, 10999 Berlin (5th floor) - http://co-up.de",
+          title: "#3 Let's tutorial HTML/CSS for Beginners! @co.up, Adalbertstr. 8, 10999 Berlin (5th floor) - http://co-up.de",
           start: new Date(2016, 9, 13, 19, 30, 00),
           end: new Date(2016, 9, 13, 22, 00, 00),
           allDay: false,
-          location: co_up
+          location: co_up,
+          eventButton: true
         },
         {
           id: 999,
