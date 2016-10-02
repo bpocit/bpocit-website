@@ -1,6 +1,6 @@
  <!-- jQuery Version 1.11.0 -->
+    <!-- <script src="{{ "/js/jquery-1.11.0.js" | prepend: site.baseurl }}"></script> -->
     <script src="{{ "/js/jquery-1.11.0.js" | prepend: site.baseurl }}"></script>
-
     <!-- Bootstrap Core JavaScript -->
     <script src="{{ "/js/bootstrap.min.js" | prepend: site.baseurl }}"></script>
 
@@ -20,15 +20,19 @@
     <script src='https://js.tito.io/v1' async></script> -->
 
     <!-- Custom Calendar JavaScript -->
+    <script src="{{ "/js/fullcalendar/node_modules/moment/moment.js" | prepend: site.baseurl }}"></script>
+    <script src="{{ "/js/fullcalendar/node_modules/jquery/dist/jquery.js" | prepend: site.baseurl }}"></script>
+    <script src="{{ "/js/fullcalendar/dist/fullcalendar.min.js" | prepend: site.baseurl }}"></script>
+    <script src="{{ "/js/fullcalendar/dist/fullcalendar.js" | prepend: site.baseurl }}"></script>
     <script src="{{ "/js/calendar.js" | prepend: site.baseurl }}"></script>
 
     <script>
       $(document).ready(function() {
 
           $('#calendar').fullCalendar({
-              // dayClick: function() {
-              //     alert('a day has been clicked!');
-              // }
+              dayClick: function() {
+                  alert('a day has been clicked!');
+              }
           });
 
       });
