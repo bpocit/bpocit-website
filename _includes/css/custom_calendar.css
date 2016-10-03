@@ -7,6 +7,6 @@
   margin-top: 40px;
 }
 
-#calendar .fc-toolbar.fc-view-container.table {
-  color: #333;
+#calendar .fc-title {
+  white-space: normal;
 }

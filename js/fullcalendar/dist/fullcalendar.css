@@ -42,7 +42,7 @@ body .fc { /* extra precedence to overcome jqui */
 .fc-unthemed .fc-divider,
 .fc-unthemed .fc-popover .fc-header,
 .fc-unthemed .fc-list-heading td {
-	background: #eee;
+	background: #fff /* #eee; */
 }
 
 .fc-unthemed .fc-popover .fc-header .fc-close {
