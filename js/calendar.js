@@ -9,14 +9,14 @@ $.getScript("./js/fullcalendar/dist/fullcalendar.min.js",function(){
 
     $('#calendar').fullCalendar({
       header: {
-        left: 'prevYear, prev,next, nextYear, today',
+        left: 'prevYear, prev,next, nextYear',
         center: 'title',
-        right: 'month,listYear,listMonth,listDay'
+        right: 'agendaWeek,month,listYear'
       },
-      defaultView: 'month',
+      defaultView: 'listYear',
       defaultDate: '2016-10-01',
       navLinks: true, // can click day/week names to navigate views
-      weekNumberCalculation: 'ISO',
+      weekNumberCalculation: 'ISO', // firstDay = monday
       editable: true,
       events: [
         {
