@@ -1,14 +1,14 @@
 .grid-wrap {
-  width: 260px;
-  height: 220px;
-  margin-right: 20px;
-  margin-bottom: 20px;
-}
-
-/*.grid-wrap.grid-box {
   width: 100%;
   height: 100%;
-}*/
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+
+.grid-box {
+  width: 260px;
+  height: 220px;
+}
 
 h3.grid-text {
   color: #fff;
