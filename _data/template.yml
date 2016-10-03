@@ -9,5 +9,5 @@ color:
 # Font Families
 font:
   primary: 'Montserrat, "Helvetica Neue",Helvetica,Arial,sans-serif'
-  secondary: '"Lato", "Droid Serif", "Helvetica Neue", Helvetica,Arial,sans-serif'
+  secondary: '"Open Sans", "Helvetica Neue", Helvetica,Arial,sans-serif'
   third: '"Caveat", "Helvetica Neue", Helvetica,Arial,sans-serif'
