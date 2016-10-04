@@ -5,9 +5,7 @@
 
 As a study group of Black and People of Color in Tech (BPoCiT) we acknowledge and welcome the various and different needs, experiences and backgrounds of communities of color.
 
-We are aware that the lack and marginalization of Queer Trans_ Inter_ Black and People of Color/Black and People of Color (QTIBPOC/BPOC) in tech comes from several inequal treatments and abuse of power based on race, gender identity and expression, sexual orientation, disability, physical appearance and religion which often lead to barriers or denials of access to education, opportunities, spaces and finances.
-
-We are also aware that even communities of color are not free of prejudices and discriminatory behavior themselves. Keeping this in mind, we aim to create a free learning space for Black and People of Color with our group that is built on awareness, empowerment, support and mutual care to provide a welcoming environment for our attendees.
+We are aware that the lack and marginalization of Queer Trans_ Inter_ Black and People of Color/Black and People of Color (QTIBPOC/BPOC) in tech is directly connected to the intersections of race, gender identity and expression, sexual orientation, disability, physical appearance and religion that often lead to barriers or denials of access to education, opportunities, spaces and finances for communities of color. Keeping this in mind, we therefore aim to create a free learning space for Black and People of Color that is built on awareness, empowerment, support and mutual care to provide a welcoming environment for our attendees.
 
 ###Purpose
 
