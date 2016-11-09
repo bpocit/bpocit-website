@@ -14,7 +14,7 @@ $.getScript("./js/fullcalendar/dist/fullcalendar.min.js",function(){
         right: 'agendaWeek,month,listYear'
       },
       defaultView: 'month',
-      defaultDate: '2016-10-01',
+      defaultDate:  '2016-11-01',
       navLinks: true, // can click day/week names to navigate views
       weekNumberCalculation: 'ISO', // firstDay = monday
       editable: true,
@@ -28,7 +28,7 @@ $.getScript("./js/fullcalendar/dist/fullcalendar.min.js",function(){
         },
         {
           id: 999,
-          title: "#2 Let's tutorial together! (HTML/CSS for Beginners) | @Altes Finanzamt, Schönstedtstr. 7, 12043 Berlin - http://altesfinanzamt.blogspot.de",
+          title: "#2 Let's tutorial together! (HTML/CSS for Beginners) | @Altes Finanzamt, Schönstedtstr. 7, 12043 Berlin",
           start: new Date(2016, 8, 21, 19, 00, 00),
           end: new Date(2016, 8, 21, 22, 00, 00),
           allDay: false
@@ -45,30 +45,6 @@ $.getScript("./js/fullcalendar/dist/fullcalendar.min.js",function(){
           title: "#4 Let's tutorial together! (HTML/CSS for Beginners) | @co.up, Adalbertstr. 8, 10999 Berlin (5th floor) - http://co-up.de",
           start: new Date(2016, 9, 27, 19, 30, 00),
           end: new Date(2016, 9, 27, 22, 00, 00),
-          allDay: false,
-          url: "http://co-up.de"
-        },
-        {
-          id: 999,
-          title: "#5 Let's tutorial together! (HTML/CSS for Beginners) | @co.up, Adalbertstr. 8, 10999 Berlin (5th floor) - http://co-up.de",
-          start: new Date(2016, 10, 10, 19, 30, 00),
-          end: new Date(2016, 10, 10, 22, 00, 00),
-          allDay: false,
-          url: "http://co-up.de"
-        },
-        {
-          id: 999,
-          title: "#6 Let's tutorial together! (HTML/CSS for Beginners) | @co.up, Adalbertstr. 8, 10999 Berlin (5th floor) - http://co-up.de",
-          start: new Date(2016, 10, 24, 19, 30, 00),
-          end: new Date(2016, 10, 24, 22, 00, 00),
-          allDay: false,
-          url: "http://co-up.de"
-        },
-        {
-          id: 999,
-          title: "#7 Let's tutorial together! (HTML/CSS for Beginners) | @co.up, Adalbertstr. 8, 10999 Berlin (5th floor) - http://co-up.de",
-          start: new Date(2016, 11, 8, 19, 30, 00),
-          end: new Date(2016, 11, 8, 22, 00, 00),
           allDay: false,
           url: "http://co-up.de"
         }
