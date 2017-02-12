@@ -1,10 +1,25 @@
-url: https://bpocit.github.io
-baseurl: /website
+url: https://1000miles.github.io
+baseurl: /bpocit-website
 
 # Site settings
 title: BPoCiT Study Group
 email: bpocit@splendits.de
 description: "A Black and People of Color Study Group for Web Development"
+
+defaults:
+  scope:
+      path: ""
+      type: page
+  values:
+      layout: default
+
+# Directories
+source:       .
+destination:  ./_site
+plugins_dir:  _plugins
+layouts_dir:  _layouts
+data_dir:     _data
+includes_dir: _includes
 
 
 # Team names, titles and social links
@@ -20,11 +35,6 @@ social:
     url: https://github.com/bpocit
   - title: twitter
     url: #
-
-# Postal address (add as many lines as necessary)
-# address:
-#   - line: 3481 Melrose Place
-#   - line: Beverly Hills, CA 90210
 
 # Build settings
 markdown: kramdown
